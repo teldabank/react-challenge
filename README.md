@@ -11,7 +11,7 @@ Provide a README including the following items:
 ## Activity Feed
 Implement an activity log React app with the following requirments:
 
-- Use `www.example.com` to get the list of activity data
+- Use this [Mock API](https://glowing-adventure-49552f65.pages.github.io/data.json) to get the list of activity data
 - Should be able to differenciate between different activity types
 - Should be a paginated list (Frontend pagination is fine)
 - Should display an activity details page when clicked on an activity item
