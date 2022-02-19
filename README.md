@@ -14,7 +14,7 @@ Implement an activity log React app with the following requirments:
 - Use `www.example.com` to get the list of activity data
 - Should be able to differenciate between different activity types
 - Should be a paginated list (Frontend pagination is fine)
-- Should be display a detailed of of the activity when clicked on
+- Should display an activity details page when clicked on an activity item
 
 
 Solutions must:
