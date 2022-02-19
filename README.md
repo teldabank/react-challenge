@@ -15,7 +15,7 @@ Implement an transaction feed React app with the following requirments:
 - Should be able to differenciate between different transaction types
 - Should be able to filter transactions by `type`, `merchant` and `category`
 - Should be a paginated list (Frontend pagination is fine)
-- Should display a transaction details page when clicked on an activity item
+- Should display a transaction details page when clicked on a transaction item
 
 
 App must:
