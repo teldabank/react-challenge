@@ -13,7 +13,7 @@ Implement an transaction feed React app with the following requirments:
 
 - Use this [Mock API](https://glowing-adventure-49552f65.pages.github.io/data.json) to get the list of transactions data
 - Should be able to differenciate between different transaction types
-- Should be able to filter transactions by `type`, `merchant` and `category`
+- Should be able to filter transactions by `type` and `category`
 - Should be a paginated list (Frontend pagination is fine)
 - Should display a transaction details page when clicked on a transaction item
 
