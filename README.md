@@ -15,8 +15,8 @@ together through an app that offers the best deals for experiences & day activit
 Implement Haus React app with the following requirments:
 
 - Use this [Mock API](https://react-challenge.getsandbox.com/activities) to get the list of activities data
-- Should be able to differenciate between different activity types
-- Should be grouped by category
+- Should differenciate between activities by `category`
+- Should be grouped by `category`
 - Should be sorted by `start_date` and `state`
 - Should be able to filter activities by `state` and `category`
 - Should be a paginated list, 10 items per page (frontedn pagination)
