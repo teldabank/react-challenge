@@ -14,7 +14,7 @@ together through an app that offers the best deals for experiences & day activit
 
 Implement Haus React app with the following requirments:
 
-- Use this [Mock API](https://glowing-adventure-49552f65.pages.github.io/data.json) to get the list of activities data
+- Use this [Mock API](https://react-challenge.getsandbox.com/activities) to get the list of activities data
 - Should be able to differenciate between different activity types
 - Should be grouped by category
 - Should be sorted by `start_date` and `state`
