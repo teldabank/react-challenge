@@ -16,10 +16,11 @@ Implement Haus React app with the following requirments:
 
 - Use this [Mock API](https://glowing-adventure-49552f65.pages.github.io/data.json) to get the list of activities data
 - Should be able to differenciate between different activity types
+- Should be grouped by category
+- Should be sorted by `start_date` and `state`
 - Should be able to filter activities by `state` and `category`
-- Should be a paginated list (Frontend pagination is fine)
+- Should be a paginated list, 10 items per page (frontedn pagination)
 - Should display a activity details page when clicked on a activity
-
 
 Requirments:
 - use React + Typescript
