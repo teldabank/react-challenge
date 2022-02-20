@@ -8,19 +8,24 @@ Provide a README including the following items:
 - Trade-offs made, if any.
 - Possible future improvements.
 
-## Transaction Feed
-Implement an transaction feed React app with the following requirments:
+## Haus
+Haus is an imaginary brand that connects young traveleres
+together through an app that offers the best deals for experiences & day activities for cities around the world.
 
-- Use this [Mock API](https://glowing-adventure-49552f65.pages.github.io/data.json) to get the list of transactions data
-- Should be able to differenciate between different transaction types
-- Should be able to filter transactions by `type` and `category`
+Implement Haus React app with the following requirments:
+
+- Use this [Mock API](https://glowing-adventure-49552f65.pages.github.io/data.json) to get the list of activities data
+- Should be able to differenciate between different activity types
+- Should be able to filter activities by `state` and `category`
 - Should be a paginated list (Frontend pagination is fine)
-- Should display a transaction details page when clicked on a transaction item
+- Should display a activity details page when clicked on a activity
 
 
-App must:
+Requirments:
 - use React + Typescript
 - use client-side routing
 - use a design system library
-- (Optional use React custom hooks
-- (Optional) use a utility-first CSS framwork
+
+Nice to have:
+- use custom hooks
+- use a utility-first CSS framwork
