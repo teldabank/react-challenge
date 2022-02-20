@@ -20,8 +20,7 @@ Implement an transaction feed React app with the following requirments:
 
 App must:
 - use React + Typescript
-- use React custom hooks
 - use client-side routing
 - use a design system library
+- (Optional use React custom hooks
 - (Optional) use a utility-first CSS framwork
-- follow a good UI/UX
