@@ -19,8 +19,9 @@ Implement Haus React app with the following requirments:
 - Should be grouped by `category`
 - Should be sorted by `start_date` and `state`
 - Should be able to filter activities by `state` and `category`
-- Should be a paginated list, 10 items per page (frontedn pagination)
-- Should display a activity details page when clicked on a activity
+- Should be a paginated list, 10 items per page (frontend pagination)
+- Should be able to favourite an activity item
+- Should display an activity details page when an item is clicked on
 
 Requirments:
 - use React + Typescript
