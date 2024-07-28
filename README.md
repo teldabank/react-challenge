@@ -1,32 +1,47 @@
-# Image Carousel React Task
 
-### Task Description
+## Task Description
 
-Using React & Typescript create an image carousel similar to the one used in Instagram. The image carousel should allow users to navigate through a set of images using next and previous buttons, with a transition animation between images.
+Using the [The Movie Database (TMDB) API](https://developer.themoviedb.org/docs/getting-started), create a React + TypeScript application with the following features:
 
-### Requirements
+## Requirements
 
-1.  Create a React component named `ImageCarousel.tsx`.
-2.  Fetch image data from the provided [URL](https://mocki.io/v1/1f0d69ac-34b4-4a75-be4a-88971525d1c5)
-3.  Display the fetched images within the carousel.
-4.  Display image caption below each image in the carousel.
-5.	Show an index indicator (e.g., dots or dashes) to represent the total number of images.
-6.	Highlight the active index in the indicator.
-7.  Implement invisible navigation buttons on the right and left sides of the image. Clicking on the right part of the image should navigate to the next image, and clicking on the left part should navigate to the previous image.
-8.  Create a smooth transition animation between images.
-9.  Allow users to navigate in a circular manner (from the last image to the first and vice versa).
+1. **Landing Page:**
+   - Display a list of movies.
+   - Each movie item should include:
+     - Poster image
+     - Movie name
+     - Release date
+   - Implement pagination to navigate through different lists of movies.
 
-### Bonus Points
+2. **Movie Details Page:**
+   - When a movie is selected from the landing page, navigate to a details page.
+   - Fetch and display detailed information about the selected movie using a different API endpoint than the landing page.
 
-- Add additional features like autoplay, or responsive design.
-- Include tests.
-- Include additional mock data
+3. **Responsive Design:**
+   - Ensure the application is fully responsive and looks good on different screen sizes.
 
+## Bonus Section
+
+1. **Search Functionality:**
+	 - Implement a search bar on the landing page to filter movies by name.
+	 - Update the movie list dynamically based on the search query.
+ 
+ 2. **Animations:**
+	- Add subtle animations to enhance user experience, such as hover effects on movie items and smooth transitions between pages.
+
+3. **Unit Testing:**
+	- Write unit tests for components using a testing library like Jest.
+
+## Resources
+- [TMDB API Documentation](https://developer.themoviedb.org/docs/getting-started)
+- [Create React App Documentation](https://create-react-app.dev/)
 
 ###  Notes 
-1. UI & animation libraries are not allowed.
-2. The component should be designed to be reusable.
-3. The solution should provide a README including the following items:
+1. UI & animation libraries are **not** allowed.
+2. Frameworks like Next.js are **not** allowed.
+3. Utility CSS classes like Tailwind are allowed.
+4. Components should be designed to be reusable.
+5. The solution should provide a README including the following items:
 	-   Brief description of the solution.
 	-   Reasoning behind your technical decisions.
 	-   Trade-offs made, if any.
