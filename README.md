@@ -6,6 +6,7 @@ Using the [The Movie Database (TMDB) API](https://developer.themoviedb.org/docs/
 ## Requirements
 
 1. **Landing Page:**
+   - Implement a search bar to filter movies by name and category.
    - Display a list of movies.
    - Each movie item should include:
      - Poster image
@@ -20,17 +21,11 @@ Using the [The Movie Database (TMDB) API](https://developer.themoviedb.org/docs/
 3. **Responsive Design:**
    - Ensure the application is fully responsive and looks good on different screen sizes.
 
-## Bonus Section
-
-1. **Search Functionality:**
-	 - Implement a search bar on the landing page to filter movies by name.
-	 - Update the movie list dynamically based on the search query.
- 
- 2. **Animations:**
+ 4. **Animations:**
 	- Add subtle animations to enhance user experience, such as hover effects on movie items and smooth transitions between pages.
-
-3. **Unit Testing:**
-	- Write unit tests for components using a testing library like Jest.
+ 
+ 5. **Unit Testing:** - Nice to have
+	- Write unit tests for components using a testing library like Jest.  
 
 ## Resources
 - [TMDB API Documentation](https://developer.themoviedb.org/docs/getting-started)
